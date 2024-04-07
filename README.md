@@ -79,3 +79,11 @@ key - Delivery way
 value - List of items from our basket for that delivery
 
 private String keyWithMaxItems(Map<String, List<String>> map_delivery_item) - method that will return Delivery way with the longest list of items
+
+# Codes are in **src -> main -> java** folder
+
+**src -> main -> java -> com -> ocado -> basket** -> has a class BasketSplitter
+
+**src -> main -> java ** has Main class
+
+
