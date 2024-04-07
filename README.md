@@ -84,6 +84,11 @@ private String keyWithMaxItems(Map<String, List<String>> map_delivery_item) - me
 
 **src -> main -> java -> com -> ocado -> basket** -> has a class BasketSplitter
 
-**src -> main -> java ** has Main class
+**src -> main -> java** has Main class
 
+# How to use
 
+in your main class:
+
+BacketSplitter splitter = new BacketSplitter(String your_Absolute_Path_to_config_file); //pass your absolute path to config file as String
+Map<String, List<String>> map = splitter.split(List<String> items) //pass as a parameter your List of items
